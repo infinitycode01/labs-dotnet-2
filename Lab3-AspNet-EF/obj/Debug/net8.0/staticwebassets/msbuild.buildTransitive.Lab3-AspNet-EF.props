@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/Lab3-AspNet-EF.props" />
+</Project>

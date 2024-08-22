@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "4IlXHPGSTZ5bjNzYS1a9Hv/BdlNI8oKjiY8YfZ3nnLw=",
+  "Source": "Lab3-AspNet-EF",
+  "BasePath": "_content/Lab3-AspNet-EF",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Lab3-AspNet-EF/wwwroot",
+      "Source": "Lab3-AspNet-EF",
+      "ContentRoot": "/home/dmytro/Projects/C#/Lab3-AspNet-EF/Lab3-AspNet-EF/wwwroot/",
+      "BasePath": "_content/Lab3-AspNet-EF",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
