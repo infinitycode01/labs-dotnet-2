@@ -1,0 +1,17 @@
+@page
+@model Lab3_AspNet_EF.Pages.IndexModel
+
+<h2>Call</h2>
+
+<a asp-page="/Calls/Create">Create</a>
+
+<ul>
+    @foreach (var call in Model.Calls)
+    {
+        <li>
+            @call.ToString()
+            <a asp-page="./Edit" asp-route-id="@call.CallId">Edit</a> |
+            <a asp-page="./Delete" asp-route-id="@call.CallId">Delete</a>
+        </li>
+    }
+</ul>

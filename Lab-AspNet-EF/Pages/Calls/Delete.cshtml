@@ -1,0 +1,13 @@
+@page
+@model Lab3_AspNet_EF.Pages.Calls.DeleteModel
+
+<h2>Delete Call</h2>
+
+<form method="post">
+    <div class="form-group">
+        <h3>Delete this item?</h3>
+        <p>@Model.Call.ToString()</p>
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <a asp-page="/Calls/Index" class="btn btn-secondary">Cancel</a>
+    </div>
+</form>
